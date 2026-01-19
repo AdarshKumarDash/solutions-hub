@@ -89,7 +89,7 @@ const AccessSection = () => {
                   <Checkbox id="terms" />
                   <label htmlFor="terms" className="text-sm text-muted-foreground">
                     I agree to the{" "}
-                    <Link to="/terms" className="text-accent hover:underline">
+                    <Link to="/terms" className="text-primary hover:underline">
                       Terms & Conditions
                     </Link>
                   </label>
@@ -123,7 +123,7 @@ const AccessSection = () => {
                       Remember me
                     </label>
                   </div>
-                  <Link to="/forgot-password" className="text-sm text-accent hover:underline">
+                  <Link to="/forgot-password" className="text-sm text-primary hover:underline">
                     Forgot password?
                   </Link>
                 </div>

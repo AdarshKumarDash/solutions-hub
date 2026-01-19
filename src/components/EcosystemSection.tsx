@@ -49,14 +49,14 @@ const EcosystemSection = () => {
           {ecosystemItems.map((item, index) => (
             <div
               key={index}
-              className="group relative p-6 rounded-2xl bg-gradient-to-b from-card to-card/50 border border-border overflow-hidden transition-all duration-500 hover:border-accent/50 hover:-translate-y-2"
+              className="group relative p-6 rounded-2xl bg-gradient-to-b from-card to-card/50 border border-border overflow-hidden transition-all duration-500 hover:border-primary/50 hover:-translate-y-2"
             >
               {/* Hover glow effect */}
-              <div className="absolute inset-0 bg-gradient-to-b from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               
               <div className="relative z-10">
-                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4 group-hover:bg-accent/20 transition-colors duration-300">
-                  <item.icon className="w-6 h-6 text-accent" />
+                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
+                  <item.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-bold text-foreground mb-3">
                   {item.title}
