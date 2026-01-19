@@ -18,7 +18,7 @@ const ProductDetail = () => {
       "The first portable smart laboratory in our ecosystem. SynLab revolutionizes hands-on learning by providing a complete, modular lab experience that travels with you. Designed for safety, accessibility, and affordability.",
     price: 3999,
     originalPrice: 4999,
-    discount: 25,
+    discount: 20,
     rating: 4.8,
     reviewCount: 124,
     image: synlabProduct,
