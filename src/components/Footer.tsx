@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <Link to="/" className="text-2xl font-bold text-foreground">
-            <span className="text-accent">Syn</span>Lab
+            <span className="text-primary">Syn</span>Lab
           </Link>
           
           <div className="flex gap-8">
